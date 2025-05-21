@@ -1,0 +1,17 @@
+
+Warning-[MXIR-W] VCS-MX build is required
+  Please make sure that vlogan is from the intended build.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '6.8.0-59-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vlogan -full64 -ntb_opts uvm-1.2 -sverilog -timescale=1ps/1ps -nc -l out/log/comp.log \
++incdir+../../verilog +incdir+../vip_lib/lvc_ahb +incdir+../cfg +incdir+../cov +incdir+../reg \
++incdir+../env +incdir+../seq_lib +incdir+../seq_lib/elem_seqs +incdir+../test
+
+Error-[ILWOR] Incorrect Logical Worklib or Reflib
+  The incorrect logical lib is "work".  
+  Please check your Synopsys setup file.
+
