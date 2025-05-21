@@ -1,0 +1,61 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '6.8.0-52-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs -R -full64 +v2k -fsdb +define+FSDB -sverilog pthread_yield_wrapper.c \
+counter.v tb_counter.v timescale.v -l run.log
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-fsdb' will be deprecated in a future release.  Please use 
+  '-debug_acc+dmptf -debug_region+cell+encrypt' instead.
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Wed Mar 19 16:23:37 2025
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'counter.v'
+Parsing design file 'tb_counter.v'
+Parsing design file 'timescale.v'
+Top Level Modules:
+       tb_counter
+No TimeScale specified
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module tb_counter
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -no-pie  -Wl,--no-as-needed    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ \
+-Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -L/usr/lib/x86_64-linux-gnu \
+-L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic  -Wl,-rpath=/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib \
+-L/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib  pthread_yield_wrapper.o   \
+objs/amcQw_d.o  _21317_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o \
+rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          -lzerosoft_rt_stubs -lvirsim \
+-lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive       _vcs_pli_stub_.o   /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o \
+/home/zjc/vcs/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm \
+-lpthread -ldl 
+../simv up to date
+Command: /home/zjc/counter/./simv +v2k +define+FSDB -a run.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Mar 19 16:23 2025
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'tb_counter.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+You gotta the right result!
+$finish called from file "tb_counter.v", line 20.
+$finish at simulation time                   70
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 70
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Mar 19 16:23:39 2025
+CPU time: .422 seconds to compile + .418 seconds to elab + .566 seconds to link + .437 seconds in simulation

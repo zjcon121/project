@@ -1,0 +1,38 @@
+debImport "-full64"
+nsMsgSwitchTab -tab general
+debImport "/home/zjc/counter/tb_counter.v" "/home/zjc/counter/counter.v" "-f" \
+          "/home/zjc/counter/file.f" "/home/zjc/counter/timescale.v" "-2001" \
+          -path {/home/zjc/counter}
+srcHBSelect "tb_counter.u1" -win $_nTrace1
+wvCreateWindow
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 {/home/zjc/counter/tb_counter.fsdb}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -line 3 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 10.481263 -snap {("G2" 0)}
+debExit
