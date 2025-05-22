@@ -1,0 +1,107 @@
+0 
+24
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic
+-Mobjects= /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/include
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/bin/vcs1
+compile.log
+hello.v
+72
+sysc_uni_pwd=/home/zjc/hello
+XMODIFIERS=@im=ibus
+XDG_SESSION_TYPE=wayland
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.250L62
+WAYLAND_DISPLAY=wayland-0
+VTE_VERSION=6800
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/zjc/vcs/verdi/verdi/Verdi_O-2018.09-SP2
+VERDI_DIR=/home/zjc/vcs/verdi/verdi/Verdi_O-2018.09-SP2
+VCS_TARGET_ARCH=amd64
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_HOME=/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=zjc
+UNAME=/bin/uname
+TOOL_HOME=/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64
+SYSTEMD_EXEC_PID=1747
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -no-pie  -Wl,--no-as-needed 
+SNPS_VCS_INTERNAL_LINKER_NEEDS_NO_AS_NEEDED=1
+SESSION_MANAGER=local/zjc-virtual-machine:@/tmp/.ICE-unix/1747,unix/zjc-virtual-machine:/tmp/.ICE-unix/1747
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+QT_ACCESSIBILITY=1
+OVA_UUM=0
+NVBOARD_HOME=/home/zjc/.ssh/ysyx-workbench/nvboard
+NPI_PLATFORM=LINUX64_GNU_472
+NPC_HOME=/home/zjc/.ssh/ysyx-workbench/npc
+NOVAS_INST_DIR=/home/zjc/vcs/verdi/verdi/Verdi_O-2018.09-SP2
+NOVAS_HOME=/home/zjc/vcs/verdi/verdi/Verdi_O-2018.09-SP2
+NEMU_HOME=/home/zjc/ics2024/nemu
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+IM_CONFIG_PHASE=1
+GTK_MODULES=gail:atk-bridge
+GNOME_TERMINAL_SERVICE=:1.96
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3f9205ac_7cbf_4fe2_90bf_e3ccb53d434b
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_SETUP_DISPLAY=:1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDMSESSION=ubuntu
+DVE_HOME=/home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/gui/dve
+DESKTOP_SESSION=ubuntu
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b1fa1ce6267a7e4c6dfcdfc4682d638c
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b1fa1ce6267a7e4c6dfcdfc4682d638c
+CPATH=/usr/include/x86_64-linux-gnu
+COLORTERM=truecolor
+AM_HOME=/home/zjc/ics2024/abstract-machine
+0
+1
+1747805182 hello.v
+4
+1551422344 /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so
+1551421792 /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so
+1551421768 /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
+1551421789 /home/zjc/vcs/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
