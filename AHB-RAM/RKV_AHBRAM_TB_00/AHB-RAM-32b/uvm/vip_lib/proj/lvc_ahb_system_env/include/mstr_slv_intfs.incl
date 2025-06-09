@@ -1,0 +1,3 @@
+
+`include "lvc_ahb_master_agent_lvc_ahb_master_if.sv" 
+`include "lvc_ahb_slave_agent_lvc_ahb_slave_if.sv"

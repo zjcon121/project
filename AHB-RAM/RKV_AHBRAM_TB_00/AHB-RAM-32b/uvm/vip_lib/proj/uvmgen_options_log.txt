@@ -1,0 +1,24 @@
+UVM Version : 2 
+Complete Env.(1) OR Individual Template(2)? : 1 
+Want to create your own methods[Instead of uvm shorthand macros]? : n 
+RAL env? : 0 
+Env. Name : lvc_ahb_system_env 
+Agents? : y 
+Name of master agent:  : lvc_ahb_master_agent 
+Name of sequencer in lvc_ahb_master_agent master agent:  : lvc_ahb_master_sequencer 
+Name of driver in lvc_ahb_master_agent master agent:  : lvc_ahb_master_driver 
+Name of monitor in lvc_ahb_master_agent master agent:  : lvc_ahb_master_monitor 
+Name of interface related to lvc_ahb_master_agent master agent:  : lvc_ahb_master_if 
+Name of transaction in lvc_ahb_master_agent master agent:  : lvc_ahb_master_transaction 
+BU class for this transaction? : n 
+Name of slave agent:  : lvc_ahb_slave_agent 
+Name of sequencer in lvc_ahb_slave_agent slave agent:  : lvc_ahb_slave_sequencer 
+Name of driver in lvc_ahb_slave_agent slave agent:  : lvc_ahb_slave_driver 
+Name of monitor in lvc_ahb_slave_agent slave agent:  : lvc_ahb_slave_monitor 
+Name of physical interface related to lvc_ahb_slave_agent slave agent:  : lvc_ahb_slave_if 
+Name of transaction related to lvc_ahb_slave_agent slave agent:  : lvc_ahb_master_transaction 
+Driver information for the slave agent lvc_ahb_slave_agent :  :  
+Driver Type : Driver, PULL DRIVER (uvm_driver) 
+Driver information for the master agent lvc_ahb_master_agent :  :  
+Driver Type : Driver, PULL DRIVER (uvm_driver) 
+Scoreboard? : n 
